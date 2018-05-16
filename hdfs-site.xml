@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>	
+	<!--
+		example of property entry for a two nodes configuration:
+
+		<property>
+	        <name>dfs.datanode.data.dir</name>
+	        <value>/path/to/hadoop/installation/hdfs/datanode</value>
+	        <description>path of datanode storage</description>
+    	</property>
+
+    	<property>
+	        <name>dfs.namenode.data.dir</name>
+	        <value>/path/to/hadoop/installation/hdfs/namenode</value>
+	        <description>path of namenode storage</description>
+    	</property>
+	-->
+</configuration>

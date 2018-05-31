@@ -1,6 +1,6 @@
 # Mjolnir Stack Scripts
-## Phase 1
-To start phase1 cluster (HDFS + YARN + Spark), run the 'hdfs_yarn_init.sh' script from the phase1 folder.
+## HDFS + YARN + Spark Stack initialization
+To start cluster (HDFS + YARN + Spark), run the 'hdfs_yarn_init.sh' script from the phase1 folder.
 
 ## Ingestion and HDFS (alternative)
 Exec the hdfs-start.sh script in order to prepare HDFS.

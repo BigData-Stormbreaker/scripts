@@ -1,0 +1,13 @@
+{
+  "type": "record",
+  "name": "PlugRecord",
+  "fields" : [
+    {"name": "id", "type": "long"},            
+    {"name": "timestamp", "type": "long"}, 
+    {"name": "value", "type": "double"},
+    {"name": "property", "type": "int"},
+    {"name": "plug_id", "type": "long"},
+    {"name": "household_id", "type": "long"},
+    {"name": "house_id", "type": "long"}
+  ]
+}

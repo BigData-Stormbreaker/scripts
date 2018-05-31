@@ -2,8 +2,13 @@
 ## Phase 1
 To start phase1 cluster (HDFS + YARN + Spark), run the 'hdfs_yarn_init.sh' script from the phase1 folder.
 
-Start a NiFi Instance with the flow.xml.gz file given.
-Set the global variables for:
-+ *spooldir*: where to pull the .csv file
-+ *hadoophome*: the hadoop home path
-+ *avroschema*: the path of the avro schema on hadoop
+## Ingestion and HDFS (alternative)
+Exec the hdfs-start.sh script in order to prepare HDFS.
+
+When the containers start, exec the initialize.sh script that you will find in the /data/ folder.
+
+DO NOT CLOSE THE BASH FOR THE CONTAINER OR IT WILL BE STOPPED.
+
+Exec the nifi-start.sh script from the local system. Insert the d14_filtered.csv file inside the /nifi/spooldir directory so that NiFi can start ingest the data.
+
+

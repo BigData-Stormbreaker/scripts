@@ -5,9 +5,9 @@ To start cluster (HDFS + YARN + Spark), run the 'hdfs_yarn_init.sh' script from 
 ## Ingestion and HDFS (alternative)
 Exec the hdfs-start.sh script in order to prepare HDFS.
 
-   The hdfs-start.sh will create a volume where the contents of
-   $HADOOP_HOME will be available. In this way NiFi will be able to read the Hadoop Configuration files.
-   Inside */data* you will find the contents of the *$PWD/nifi* folder
+    The hdfs-start.sh will create a volume where the contents of
+    $HADOOP_HOME will be available. In this way NiFi will be able to read the Hadoop Configuration files.
+    Inside */data* you will find the contents of the *$PWD/nifi* folder
 
 
 When the containers start, exec the *initialize.sh* script that you will find in the */data/* folder.

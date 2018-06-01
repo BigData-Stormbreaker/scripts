@@ -22,5 +22,8 @@ Now you are ready to exec the spark script:
 `$SPARK_HOME/bin/spark-submit --class it.uniroma2.sabd.mjolnir.MjolnirSparkSession path-to/mjolnir-1.0-jar-with-dependencies.jar hdfs=localhost:54310 houseid=*houseID*`
 
 Being the query3 final resolution demanded to Redis, you can submit as many executions as the houses.
+So using:
+`ZRANGE mjolnir/results/query3/plugsrank 0 -1 WITHSCORES`
+you will get the orderd values for each plug identified by `houseID_householdID_plugID`
 
 
